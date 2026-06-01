@@ -70,9 +70,7 @@ export default function App() {
 
     // === short, friendly WhatsApp message (what the person actually sends) ===
     const lines = [];
-    lines.push(`${EMO.card} ¡Reserva Sero!`);
-    lines.push("");
-    lines.push(`Hola, soy ${data.nombre || ""}. Ya hice el Yape para apartar mi lugar — acá va la captura ${EMO.point}`);
+    lines.push(`Hola, soy ${data.nombre || ""}. Acá va la captura de mi reserva :D`);
 
     // structured row for Google Sheets (flat, one row per reservation)
     const tasteFull = [];
